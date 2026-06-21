@@ -1,0 +1,32 @@
+[
+  {
+    "id": "direct-fact",
+    "query": "When was Future University in Egypt founded?",
+    "expected_source_section": "About",
+    "expected_fact": "2006"
+  },
+  {
+    "id": "paraphrase",
+    "query": "What green power topics do Zewail City renewable-energy students study?",
+    "expected_source_section": "Programs",
+    "expected_fact": "solar, photovoltaic, wind, storage and grid integration"
+  },
+  {
+    "id": "specific-section",
+    "query": "What research centers are available at Zewail City?",
+    "expected_source_section": "Research Centers",
+    "expected_fact": "a source-backed list of centers"
+  },
+  {
+    "id": "multilingual",
+    "query": "ما هو عنوان مدينة زويل للعلوم والتكنولوجيا؟",
+    "expected_source_section": "Contact",
+    "expected_fact": "October Gardens, 6th of October City, Giza"
+  },
+  {
+    "id": "out-of-scope",
+    "query": "What is the current tuition fee at MIT in the United States?",
+    "expected_source_section": null,
+    "expected_fact": "insufficient sources"
+  }
+]

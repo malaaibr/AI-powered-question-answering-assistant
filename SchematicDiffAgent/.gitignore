@@ -1,0 +1,13 @@
+.env
+work/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+pytest-cache-files-*/
+.venv/
+venv/
+.DS_Store
+*.pdf
+*.faiss
+*.pkl
